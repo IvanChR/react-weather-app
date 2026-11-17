@@ -1,16 +1,26 @@
-# React + Vite
+# 🌤️ React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web interactiva desarrollada con **React** para consultar el pronóstico y las condiciones meteorológicas actuales en tiempo real de cualquier ciudad del mundo.
 
-Currently, two official plugins are available:
+## ✨ Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Búsqueda por ciudad:** Consulta instantánea del clima actual mediante nombre de ciudad o código postal.
+* **Datos meteorológicos detallados:** Visualización de temperatura actual, sensación térmica, humedad relativa, velocidad del viento y descripción del estado del cielo.
+* **Iconografía dinámica:** Íconos y estilos visuales que se adaptan según las condiciones climáticas (soleado, nublado, lluvia, etc.) y la hora del día.
+* **Diseño responsivo:** Interfaz adaptable a dispositivos móviles, tabletas y escritorio.
 
-## React Compiler
+## 🛠️ Tecnologías utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** React (Hooks: `useState`, `useEffect`), JavaScript (ES6+), HTML5, CSS3
+* **Consumo de API:** Fetch API
+* **Servicio meteorológico:** [Weather API](https://api.weatherapi.com/v1/) 
+* **Entorno de desarrollo:** Vite
 
-## Expanding the ESLint configuration
+## 🚀 Instalación y uso local
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Clona este repositorio:**
+   ```bash
+   git clone [https://github.com/IvanChR/react-weather-app.git](https://github.com/IvanChR/react-weather-app.git)
+   cd react-weather-app
+   npm install
+   ```
