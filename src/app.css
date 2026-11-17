@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #222;
+    color:white;
+    font-size:16px;
+}
+
+
+.container {
+    max-width:1200px;
+    margin:auto;
+}
+
+.container h1 {
+    text-align:center;
+    margin-bottom:2rem;
+}
+
+.current {
+    text-align:center;
+    width:fit-content;
+    margin:auto;
+    padding:2rem;
+    border-radius: 1rem;
+    background: #111;
+}
+
+.current .condition {
+    margin-bottom:1rem;
+}
+.current h3 {
+    font-weight:300;
+}
+
+.current .temperature p{
+    font-size:4rem;
+    font-weight: 700;
+}
+.current .temperature span{
+    font-size:2rem;
+    
+}
+
+.current .time,
+.current .temperature {
+    margin-bottom: 1rem;
+}
+
+.search-location {
+    text-align:center;
+    margin-bottom:1rem;
+    & label {
+      margin-right:1rem;  
+    }
+    .search {
+        margin-right:1rem;
+        padding:.5rem .3rem;
+    }
+    .submitBtn {
+        background:cyan;
+        padding:.7rem 1rem ;
+        border:none;
+        border-radius: .5rem;
+    }
+}
