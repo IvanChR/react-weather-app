@@ -13,7 +13,7 @@ Aplicación web interactiva desarrollada con **React** para consultar el pronós
 
 * **Frontend:** React (Hooks: `useState`, `useEffect`), JavaScript (ES6+), HTML5, CSS3
 * **Consumo de API:** Fetch API
-* **Servicio meteorológico:** [Weather API](https://api.weatherapi.com/v1/) 
+* **Servicio meteorológico:** [Weather API](https://www.weatherapi.com/) 
 * **Entorno de desarrollo:** Vite
 
 ## 🚀 Instalación y uso local
