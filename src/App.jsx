@@ -4,7 +4,7 @@ import WeatherData from "./WeatherData";
 
 function App() {
 
-  const KEY = '6623a2447e3d450a87f212340260405'
+  const KEY = 'YOUR_API_KEY'
   const input = useRef()
 
   const [weatherData, setWeatherData] = useState(null)
@@ -12,7 +12,7 @@ function App() {
 
   const handleSearch = (e) => {
     e.preventDefault()
-    const searchValue = input.current.value 
+    const searchValue = input.current.value
     setQuery(searchValue)
     fetchQuery(searchValue)
   }
@@ -53,7 +53,7 @@ function App() {
         </form>
 
         {
-          weatherData && <WeatherData data={weatherData}/>
+          weatherData && <WeatherData data={weatherData} />
         }
       </div>
     </>
